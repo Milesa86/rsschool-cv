@@ -32,34 +32,3 @@
     overflow: hidden;
   }
 
-  .container {
-    width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 15px;
-    flex-direction: column;
-  }
-
-  .cv_name {
-    display: block;
-    padding: 99px 328px 98px 325px;
-    text-align: center;
-    font-family: "OpenSans", sans-serif;
-    font-size: 45px;
-    line-height: 75px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #440101;
-  }
-  
-  .header_contacts, .section_header {
-    text-align: center;
-    font-family: "OpenSans", sans-serif;
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #0f0d0e;
-    margin-bottom: 25px;
-  }
