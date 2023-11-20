@@ -34,21 +34,10 @@
     </section>
     <section class="cv_item">
       <h2 class="section_header">Skills</h2>
-      <ul class="skills_list">
-        <li class="skills_list-item">
-          <img class="skills_badge"
-            src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"
-            alt="CSS3 icon">
-        </li>
-        <li class="skills_list-item">
-          <img
-            src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"
-            alt="JS icon" class="skills_badge">
-        </li>
-        <li class="skills_list-item">
-          <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"
-            alt="HTML5 icon" class="skills_badge">
-        </li>
+      <ul>
+        <li>CSS</li>
+        <li>HTML</li>
+        <li>JavaScript</li>
       </ul>
     </section>
     <section class="cv_item">
@@ -59,7 +48,7 @@
             if (arr.length === 0) {
               return 0;
             } else {
-              let avg = arr.reduce((total, currentItem) => {
+              let avg = arr.reduce((total, currentItem) =&gt {
                 total += currentItem;
                 return total;
               }, 0);
