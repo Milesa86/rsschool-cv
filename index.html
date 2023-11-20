@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>CV</title>
+</head>
+
+<body>
+
+  <header class="cv_header">
+    <h1 class="cv_name">Elena Baykova</h1>
+    <section class="header_contacts">
+      <ul class="contacts_list">
+        <li class="contact_item">e-mail: <a href="maito:milesa68@gmail.com" class="contact_mail">milesa68@gmail.com</a>
+        </li>
+        <li class="contact_item">phone: <a href="tel:+79022702775" class="contact_tel">+7902 270 2775</a></li>
+        <li class="contact_item">GitHub: <a href="https://github.com/Milesa86" class="contact_github">Milesa_68</a></li>
+        <li class="contact_item">Telegram: <a href="https://t.me/milesa86" class="contact_telegram">@milesa_86</a></li>
+      </ul>
+    </section>
+  </header>
+  <main class="cv_main">
+    <div class="container">
+    <section class="cv_item">
+      <h2 class="section_header">About me</h2>
+      <p class="about-me_description">
+        I've always wanted to do web development. This attracts not only many interesting tasks, but also the need to
+        constantly develop and learn. A self-starter with a team oriented mindset, bring a proven track record of
+        delivering positive results.
+      </p>
+    </section>
+    <section class="cv_item">
+      <h2 class="section_header">Skills</h2>
+      <ul class="skills_list">
+        <li class="skills_list-item">
+          <img class="skills_badge"
+            src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"
+            alt="CSS3 icon">
+        </li>
+        <li class="skills_list-item">
+          <img
+            src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"
+            alt="JS icon" class="skills_badge">
+        </li>
+        <li class="skills_list-item">
+          <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"
+            alt="HTML5 icon" class="skills_badge">
+        </li>
+      </ul>
+    </section>
+    <section class="cv_item">
+      <h2 class="section_header">Code Example</h2>
+      <pre class="code_example">
+        <code>
+          function summElementsWorker(...arr) {
+            if (arr.length === 0) {
+              return 0;
+            } else {
+              let avg = arr.reduce((total, currentItem) => {
+                total += currentItem;
+                return total;
+              }, 0);
+              return avg;
+            }
+          }
+        </code>
+      </pre>
+    </section>
+    <section class="cv_item">
+      <h2 class="section_header">Education</h2>
+      <ul class="education_list">
+        <li class="education_item">
+          <p><span>2008</span> Ural Federal University</p>
+          <p>Specialization: State and municipal administration</p>
+        </li>
+        <li class="education_item">
+          <p><span>2024</span> Netology </p>
+          <p>Specialitation: Web-development</p>
+         
+        </li>
+        <li class="education_item">
+           <p><span>Courses:</span></p>
+           <p>codeacademy.com</p>
+           <p>CSS, SASS, JS, HTML</p>
+          
+        </li>
+      </ul>
+    </section>
+    <section class="cv_item">
+      <h2 class="section_header">English</h2>
+    </section>
+  </div>
+  </main>
+  <footer class="cv_footer"></footer>
+
+</body>
+
+</html>
